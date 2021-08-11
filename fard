@@ -2,3 +2,4 @@ Instance.new("Sound").parent = game.Workspace
 game.Workspace.Sound.SoundId = "6445594239"
 wait(1)
 game.workspace.sound:play()
+-- may get you banned if used in public servers, mainly should be used in place 2!
