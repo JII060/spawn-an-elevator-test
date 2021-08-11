@@ -1,9 +1,12 @@
-local text = game.StarterGui.ScreenGui.TextLabel
+
 local pos = "{0.423, 0},{0, 0}"
-local screen = game.StarterGui.ScreenGui
+
 
 Instance.new("ScreenGui").Parent = game.StarterGui
-Instance.new("TextLabel").Parent = screen
+local screen = game.StarterGui.ScreenGui
+Instance.new("TextLabel").Parent = game.screen
+local text = game.StarterGui.ScreenGui.TextLabel
+
 text.Position = pos
 text.Text = "hello lads"
 text.Font = "SciFi"
